@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+}
+
+.header {
+  background-image: url('roadtrip.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+  color: white;
+}
+
+.header h1 {
+  font-size: 250%;
+  text-shadow: 1px 1px black;
+}
+
+.stop {
+  position: relative;
+  left: 100px;
+  margin: 40px 0;
+}
+
+.row {
+  margin-bottom: 40px;
+}
+
+.row p {
+  font-size: 110%;
+  margin-top: 20px;
+}
+
+button.next {
+  font-size: 110%;
+  background-color: green;
+  color: white;
+  padding: 10px;
+  margin: 20px 0;
+}
