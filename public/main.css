@@ -17,6 +17,22 @@ body {
   text-shadow: 1px 1px black;
 }
 
+.header a {
+  text-decoration: none;
+}
+
+#cargo {
+  background-color: white;
+  color: red;
+  padding: 10px;
+  position: absolute;
+  right: 100px;
+  top: 30px;
+  font-size: 20px;
+  border: 2px solid white;
+}
+
+
 .stop {
   position: relative;
   left: 100px;
